@@ -6,6 +6,11 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
 
 > A: 使我们能在命令行中运行`webpack`命令
 
+**两种方式运行 webpack**
+
+1. [cli](https://webpack.js.org/api/cli/)
+2. [编程调用 API](https://webpack.js.org/api/node/)👉[先阅读指引](https://webpack.js.org/guides/development/)
+
 ## 0.文档阅读路径整理
 
 **模块**
@@ -61,3 +66,6 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
   - inline 不单独建立.map 文件
   - eval
   - 最佳实践推荐, 开发环境用`cheap-module-eval-source-map`, 生产环境用`cheap-module-source-map`
+- devServer
+  - contentBase、open、port、proxy
+  - [详细配置](https://webpack.js.org/configuration/dev-server/)

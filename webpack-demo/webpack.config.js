@@ -58,5 +58,9 @@ module.exports = {
       template: "src/index.html"
     }),
     new CleanWebpackPlugin()
-  ]
+  ],
+  devServer: {
+    contentBase: "./dist",
+    open: true
+  }
 };
