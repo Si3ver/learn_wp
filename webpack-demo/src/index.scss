@@ -1,9 +1,22 @@
-@import "./avatar.scss";
+@font-face {
+  font-family: "iconfont";
+  src: url("./font/iconfont.eot?t=1580651740596"); /* IE9 */
+  src: url("./font/iconfont.eot?t=1580651740596#iefix")
+      format("embedded-opentype"),
+    url("./font/iconfont.woff?t=1580651740596") format("woff"),
+    url("./font/iconfont.ttf?t=1580651740596") format("truetype"),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+      url("./font/iconfont.svg?t=1580651740596#iconfont") format("svg"); /* iOS 4.1- */
+}
 
-body {
-  .avatar {
-    width: 150px;
-    height: 150px;
-    transform: translate(100px, 100px);
-  }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconchangjingguanli:before {
+  content: "\eb61";
 }

@@ -1,3 +1,4 @@
-import createAvatar from "./createAvatar";
+import "./index.scss";
 
-createAvatar();
+var root = document.getElementById("root");
+root.innerHTML = '<div class="iconfont iconchangjingguanli">abc</div>';

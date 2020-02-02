@@ -23,6 +23,12 @@ module.exports = {
         }
       },
       {
+        test: /\.(eot|ttf|svg|woff)$/i,
+        use: {
+          loader: "file-loader"
+        }
+      },
+      {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"]
       },
@@ -32,7 +38,7 @@ module.exports = {
           "style-loader",
           {
             loader: "css-loader",
-            options: { importLoaders: 2, modules: true }
+            options: { importLoaders: 2 }
           },
           "sass-loader",
           "postcss-loader"
