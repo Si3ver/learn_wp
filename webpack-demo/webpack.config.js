@@ -4,6 +4,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   mode: "development",
+  devtool: "cheap-module-eval-source-map",
   entry: {
     main: "./src/index.js"
   },
@@ -27,7 +28,11 @@ module.exports = {
       {
         test: /\.(eot|ttf|svg|woff)$/i,
         use: {
-          loader: "file-loader"
+          loader: "file-loader",
+          options: {
+            name: "[name]_[hash:6].[ext]",
+            outputPath: "assets/fonts/"
+          }
         }
       },
       {
