@@ -6,13 +6,7 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
 
 > A: 使我们能在命令行中运行`webpack`命令
 
-## 1. 基础
-
-- mode 控制打包后的代码是否压缩。
-- entry 入口
-- output 出口
-
-### 文档阅读路径整理
+## 0.文档阅读路径整理
 
 **模块**
 
@@ -25,10 +19,12 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
 
 - [起步](https://webpack.js.org/guides/getting-started/)
 
-**Loaders**
+**常用的 Loaders**
 
 - [file-loader](https://webpack.js.org/loaders/file-loader/)
   - 占位符 Placeholders
+  - 字体打包 [iconfont](https://www.iconfont.cn/)
+  - [资源文件管理](https://webpack.js.org/guides/asset-management/)
 - [url-loader](https://webpack.js.org/loaders/url-loader/)
   - limit 小于该尺寸则转换成 base64, 大于该尺寸和 file-loader 效果一样
 - [css-loader](https://webpack.js.org/loaders/sass-loader/)
@@ -39,12 +35,18 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
   - postcss.config.js
   - autoprefixer 插件
 
-## 2.资源文件管理
+**常用 plugins**
 
-**字体打包**
+- [HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/)
+  - template 属性，接收 html 模板的路径
+- [CleanWebpackPlugin](https://github.com/johnagan/clean-webpack-plugin/)
 
-- [iconfont](https://www.iconfont.cn/)
+  - template 属性，接收 html 模板的路径
 
-**拓展阅读**
+## 1. 基础
 
-- [资源文件管理](https://webpack.js.org/guides/asset-management/)
+- mode 控制打包后的代码是否压缩。
+- entry 入口
+- output 出口
+- module
+- plugins
