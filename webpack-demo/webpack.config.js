@@ -30,7 +30,10 @@ module.exports = {
         test: /\.scss$/i,
         use: [
           "style-loader",
-          { loader: "css-loader", options: { importLoaders: 2 } },
+          {
+            loader: "css-loader",
+            options: { importLoaders: 2, modules: true }
+          },
           "sass-loader",
           "postcss-loader"
         ]
