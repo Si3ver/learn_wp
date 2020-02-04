@@ -72,7 +72,7 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
   - hot: true 开启 HMR(热模块更新)
   - hotOnly: true 即便 HMR 未生效也不要刷新浏览器
 
-## babel
+## 2.babel
 
 - babel-loader
 - @babel/core 核心模块
@@ -87,3 +87,17 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
   - @babel/runtime-corejs2
 - .babelrc
   - 单独写，避免 options 太大
+
+## 3.tree-shaking
+
+- tree-shaking 只支持 ES module
+
+  - package.json sideEffects,排除掉不进行摇树的模块（特别是 js 中 import 的 css、@babel/polyfill 等）
+  - 开发模式不会真正进行摇动树，但会标记 `/*! exports used: xxx */`
+  - 开发模式下 webpack 需要配如下字段，生产模式不需要配
+
+  ```js
+  optimization: {
+    usedExports: true;
+  }
+  ```

@@ -1,6 +1,3 @@
-// import "@babel/polyfill";
+import { add } from "./math.js";
 
-const arr = [new Promise(() => {}), new Promise(() => {})];
-arr.map(item => {
-  console.log(item);
-});
+add(1, 2);

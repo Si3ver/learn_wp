@@ -95,5 +95,8 @@ module.exports = {
     open: true,
     hot: true,
     hotOnly: true
+  },
+  optimization: {
+    usedExports: true
   }
 };
