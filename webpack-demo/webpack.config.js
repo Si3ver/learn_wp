@@ -16,6 +16,35 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
+        options: {
+          presets: [
+            [
+              "@babel/preset-env",
+              {
+                targets: {
+                  chrome: "57"
+                },
+                useBuiltIns: "usage"
+              }
+            ]
+          ]
+          // plugins: [
+          //   [
+          //     "@babel/plugin-transform-runtime",
+          //     {
+          //       corejs: 2,
+          //       helpers: true,
+          //       regenerator: true,
+          //       useESModules: false
+          //     }
+          //   ]
+          // ]
+        }
+      },
+      {
         test: /\.(jpg|png|gif)$/i,
         use: {
           loader: "url-loader",

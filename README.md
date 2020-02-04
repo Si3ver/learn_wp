@@ -71,3 +71,19 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
   - [详细配置](https://webpack.js.org/configuration/dev-server/)
   - hot: true 开启 HMR(热模块更新)
   - hotOnly: true 即便 HMR 未生效也不要刷新浏览器
+
+## babel
+
+- babel-loader
+- @babel/core 核心模块
+- 会污染全局环境（推荐开发业务代码时用）
+  - @babel/preset-env 包含了 ES6 转 ES5 的翻译规则
+    - useBuiltIns: 'usage' 只打包用到的 polyfill
+  - @babel/polyfill 兼容低版本浏览器（Pormise 等语法）
+    - js 中需要引入 `import "@babel/polyfill"`
+- 以闭包的形式注入，不污染全局环境（推荐开发类库时用）
+  - @babel/plugin-transform-runtime
+  - @babel/runtime
+  - @babel/runtime-corejs2
+- .babelrc
+  - 单独写，避免 options 太大
