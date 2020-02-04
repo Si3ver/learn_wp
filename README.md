@@ -13,16 +13,17 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
 
 ## 0.文档阅读路径整理
 
+**起步**
+
+- [起步](https://webpack.js.org/guides/getting-started/)
+
 **模块**
 
 - [概念-模块](https://webpack.js.org/concepts/modules/)
 - API-模块
   - [方法](https://webpack.js.org/api/module-methods/)
   - [变量](https://webpack.js.org/api/module-variables/)
-
-**起步**
-
-- [起步](https://webpack.js.org/guides/getting-started/)
+- [HMR 热模块替换](https://webpack.js.org/guides/hot-module-replacement/)
 
 **常用的 Loaders**
 
@@ -46,8 +47,7 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
   - template 属性，接收 html 模板的路径
   - 插件会帮助引入生成的 js 文件
 - [CleanWebpackPlugin](https://github.com/johnagan/clean-webpack-plugin/)
-
-  - template 属性，接收 html 模板的路径
+- webpack.HotModuleReplacementPlugin()
 
 ## 1. 基础
 
@@ -69,3 +69,5 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
 - devServer
   - contentBase、open、port、proxy
   - [详细配置](https://webpack.js.org/configuration/dev-server/)
+  - hot: true 开启 HMR(热模块更新)
+  - hotOnly: true 即便 HMR 未生效也不要刷新浏览器
