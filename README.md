@@ -88,6 +88,11 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
 - .babelrc
   - 单独写，避免 options 太大
 
+**动态 import 语法支持**
+
+- 安装插件 @babel/plugin-syntax-dynamic-import
+- 配置.babelrc 或 babel-loader 增加一项 option ：`plugins: ["@babel/plugin-syntax-dynamic-import"]`
+
 ## 3.tree-shaking
 
 - tree-shaking 只支持 ES module
@@ -96,8 +101,35 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
   - 开发模式不会真正进行摇动树，但会标记 `/*! exports used: xxx */`
   - 开发模式下 webpack 需要配如下字段，生产模式不需要配
 
-  ```js
-  optimization: {
-    usedExports: true;
+```js
+const wpConfig =
+optimization: {
+  usedExports: true;
+}
+```
+
+## 4. Code Spliting 代码分割
+
+1. 简单粗暴(同步加载的代码)
+
+```js
+const wpConfig =
+optimization: {
+  splitChunks: {
+    chunks: all
   }
-  ```
+}
+```
+
+2. 异步加载的代码
+
+无需做任何配置，会自动代码分割。
+
+3. [webpack.splitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)
+
+魔法注释 magic comments
+
+```js
+import (/* webpackChunkName:"lodash" */ xxx).then()
+```
+
