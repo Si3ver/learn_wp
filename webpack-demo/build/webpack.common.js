@@ -24,10 +24,12 @@ module.exports = {
                 targets: {
                   chrome: "57"
                 },
-                useBuiltIns: "usage"
+                useBuiltIns: "usage",
+                corejs: 2
               }
             ]
-          ]
+          ],
+          plugins: ["@babel/plugin-syntax-dynamic-import"]
           // plugins: [
           //   [
           //     "@babel/plugin-transform-runtime",
@@ -85,5 +87,14 @@ module.exports = {
       template: "src/index.html"
     }),
     new CleanWebpackPlugin()
-  ]
+  ],
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+      cacheGroups: {
+        vendors: false,
+        default: false,
+      }
+    }
+  }
 };

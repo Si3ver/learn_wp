@@ -1,3 +1,11 @@
-import { add } from "./math.js";
+function getComponent() {
+  return import(/* webpackChunkName:"lodash" */"lodash").then(({ default: _ }) => {
+    var element = document.createElement("div");
+    element.innerHTML = _join(["alwyn", "zhou"], "-");
+    return element;
+  });
+}
 
-add(1, 2);
+getComponent().then(element => {
+  document.body.appendChild(element);
+});
