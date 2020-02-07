@@ -8,6 +8,7 @@ module.exports = {
   },
   output: {
     filename: "bundle.js",
+    chunkFilename: '[name].chunk.js',
     path: path.resolve(__dirname, "../dist")
   },
   module: {
@@ -63,22 +64,6 @@ module.exports = {
             outputPath: "assets/fonts/"
           }
         }
-      },
-      {
-        test: /\.css$/i,
-        use: ["style-loader", "css-loader", "postcss-loader"]
-      },
-      {
-        test: /\.scss$/i,
-        use: [
-          "style-loader",
-          {
-            loader: "css-loader",
-            options: { importLoaders: 2 }
-          },
-          "sass-loader",
-          "postcss-loader"
-        ]
       }
     ]
   },
