@@ -90,6 +90,7 @@ Q: 什么是 webpack-cli，与 webpack 什么关系？
 
 **动态 import 语法支持**
 
+- [syntxt plugins](https://babeljs.io/docs/en/plugins#syntax-plugins)
 - 安装插件 @babel/plugin-syntax-dynamic-import
 - 配置.babelrc 或 babel-loader 增加一项 option ：`plugins: ["@babel/plugin-syntax-dynamic-import"]`
 
@@ -127,9 +128,16 @@ optimization: {
 
 3. [webpack.splitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)
 
-魔法注释 magic comments
+魔法注释 magic comments `import (/* webpackChunkName:"lodash" */ xxx).then()`
 
-```js
-import (/* webpackChunkName:"lodash" */ xxx).then()
-```
+4. 性能提升
 
+懒加载：异步引入模块
+打包分析： chrome - cmd+shift+p - show coverage
+Preloading：`import (/* webpackPrefetch:true */ xxx).then()` 主线程加载，加载完后带宽空闲时再加载此模块（性能最优）
+Prefetching：`import (/* webpackPreload:true */ xxx).then()` 和主线程一起加载
+
+5. CSS代码分割
+
+- [mini-css-extract-plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/) css 代码打包（避免 css in js)
+- [optimize-css-assets-webpack-plugin](https://github.com/NMFR/optimize-css-assets-webpack-plugin) css 代码压缩
