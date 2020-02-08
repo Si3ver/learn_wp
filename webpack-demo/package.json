@@ -8,9 +8,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev-build": "npx webpack --profile --json > stats.json --config ./build/webpack.dev.js",
-    "dev": "webpack-dev-server --config ./build/webpack.dev.js",
-    "build": "npx webpack --config ./build/webpack.prod.js"
+    "dev-build": "npx webpack --profile --json > stats.json --config ./build/webpack.common.js",
+    "dev": "webpack-dev-server --config ./build/webpack.common.js",
+    "build": "npx webpack --env.production --config ./build/webpack.common.js"
   },
   "author": "alwynzhou",
   "license": "ISC",

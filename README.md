@@ -174,3 +174,10 @@ module: {
   }]
 }
 ```
+
+8. 传递全局变量
+
+```js
+// package.json | npm scripts
+prod: '--env.production'
+```

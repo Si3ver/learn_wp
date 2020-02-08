@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.5",
-  "hash": "de156cf99ccabe044d5c",
-  "time": 1510,
-  "builtAt": 1581046406545,
+  "hash": "f29d331094da1a953e80",
+  "time": 1198,
+  "builtAt": 1581152180908,
   "publicPath": "",
   "outputPath": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/dist",
   "assetsByChunkName": {
@@ -47,7 +47,7 @@
     },
     {
       "name": "main.chunk.js",
-      "size": 34996,
+      "size": 34997,
       "chunks": [
         "main"
       ],
@@ -142,14 +142,14 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 46,
-                "building": 544
+                "factory": 36,
+                "building": 451
               }
             }
           ],
           "profile": {
-            "factory": 282,
-            "building": 36
+            "factory": 252,
+            "building": 31
           },
           "failed": false,
           "errors": 0,
@@ -194,8 +194,8 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 46,
-                "building": 544
+                "factory": 36,
+                "building": 451
               }
             },
             {
@@ -203,14 +203,14 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js",
               "profile": {
-                "factory": 282,
-                "building": 36
+                "factory": 252,
+                "building": 31
               }
             }
           ],
           "profile": {
             "factory": 0,
-            "building": 1
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -255,8 +255,8 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 46,
-                "building": 544
+                "factory": 36,
+                "building": 451
               }
             },
             {
@@ -264,14 +264,14 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js",
               "profile": {
-                "factory": 282,
-                "building": 36
+                "factory": 252,
+                "building": 31
               }
             }
           ],
           "profile": {
             "factory": 0,
-            "building": 1
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -312,14 +312,14 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 11211,
+      "size": 11212,
       "names": [
         "main"
       ],
       "files": [
         "main.chunk.js"
       ],
-      "hash": "5aad143ce2b0e193da43",
+      "hash": "d798af43f100f1ff5b30",
       "siblings": [
         "runtime"
       ],
@@ -352,8 +352,8 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 46,
-                "building": 544
+                "factory": 36,
+                "building": 451
               }
             },
             {
@@ -361,14 +361,14 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/style-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/style.css",
               "name": "./src/style.css",
               "profile": {
-                "factory": 282,
-                "building": 36
+                "factory": 252,
+                "building": 31
               }
             }
           ],
           "profile": {
-            "factory": 131,
-            "building": 411
+            "factory": 48,
+            "building": 305
           },
           "failed": false,
           "errors": 0,
@@ -431,8 +431,8 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 46,
-                "building": 544
+                "factory": 36,
+                "building": 451
               }
             },
             {
@@ -440,8 +440,8 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/style-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/style.css",
               "name": "./src/style.css",
               "profile": {
-                "factory": 282,
-                "building": 36
+                "factory": 252,
+                "building": 31
               }
             },
             {
@@ -449,14 +449,14 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/style.css",
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style.css",
               "profile": {
-                "factory": 131,
-                "building": 411
+                "factory": 48,
+                "building": 305
               }
             }
           ],
           "profile": {
-            "factory": 5,
-            "building": 2
+            "factory": 0,
+            "building": 3
           },
           "failed": false,
           "errors": 0,
@@ -501,8 +501,8 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 46,
-                "building": 544
+                "factory": 36,
+                "building": 451
               }
             },
             {
@@ -510,14 +510,14 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/style-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/style.css",
               "name": "./src/style.css",
               "profile": {
-                "factory": 282,
-                "building": 36
+                "factory": 252,
+                "building": 31
               }
             }
           ],
           "profile": {
-            "factory": 131,
-            "building": 411
+            "factory": 48,
+            "building": 305
           },
           "failed": false,
           "errors": 0,
@@ -545,7 +545,7 @@
           "name": "./src/index.js",
           "index": 0,
           "index2": 4,
-          "size": 352,
+          "size": 353,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -558,8 +558,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 46,
-            "building": 544
+            "factory": 36,
+            "building": 451
           },
           "failed": false,
           "errors": 0,
@@ -579,7 +579,7 @@
           "providedExports": [],
           "optimizationBailout": [],
           "depth": 0,
-          "source": "import \"./style.css\";\n\nfunction getComponent() {\n  return import(\n  /* webpackChunkName:\"lodash\" */\n  \"lodash\").then(({\n    default: _\n  }) => {\n    var element = document.createElement(\"div\");\n    element.innerHTML = _join([\"alwyn\", \"zhou\"], \"-\");\n    return element;\n  });\n}\n\ngetComponent().then(element => {\n  document.body.appendChild(element);\n});"
+          "source": "import \"./style.css\";\n\nfunction getComponent() {\n  return import(\n  /* webpackChunkName:\"lodash\" */\n  \"lodash\").then(({\n    default: _\n  }) => {\n    var element = document.createElement(\"div\");\n    element.innerHTML = _.join([\"alwyn\", \"zhou\"], \"-\");\n    return element;\n  });\n}\n\ngetComponent().then(element => {\n  document.body.appendChild(element);\n});"
         },
         {
           "id": "./src/style.css",
@@ -604,14 +604,14 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 46,
-                "building": 544
+                "factory": 36,
+                "building": 451
               }
             }
           ],
           "profile": {
-            "factory": 282,
-            "building": 36
+            "factory": 252,
+            "building": 31
           },
           "failed": false,
           "errors": 0,
@@ -705,8 +705,8 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 46,
-            "building": 544
+            "factory": 36,
+            "building": 451
           }
         },
         {
@@ -714,14 +714,14 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/style-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/style.css",
           "name": "./src/style.css",
           "profile": {
-            "factory": 282,
-            "building": 36
+            "factory": 252,
+            "building": 31
           }
         }
       ],
       "profile": {
-        "factory": 131,
-        "building": 411
+        "factory": 48,
+        "building": 305
       },
       "failed": false,
       "errors": 0,
@@ -784,8 +784,8 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 46,
-            "building": 544
+            "factory": 36,
+            "building": 451
           }
         },
         {
@@ -793,8 +793,8 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/style-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/style.css",
           "name": "./src/style.css",
           "profile": {
-            "factory": 282,
-            "building": 36
+            "factory": 252,
+            "building": 31
           }
         },
         {
@@ -802,14 +802,14 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/style.css",
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./src/style.css",
           "profile": {
-            "factory": 131,
-            "building": 411
+            "factory": 48,
+            "building": 305
           }
         }
       ],
       "profile": {
-        "factory": 5,
-        "building": 2
+        "factory": 0,
+        "building": 3
       },
       "failed": false,
       "errors": 0,
@@ -854,14 +854,14 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 46,
-            "building": 544
+            "factory": 36,
+            "building": 451
           }
         }
       ],
       "profile": {
-        "factory": 282,
-        "building": 36
+        "factory": 252,
+        "building": 31
       },
       "failed": false,
       "errors": 0,
@@ -906,8 +906,8 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 46,
-            "building": 544
+            "factory": 36,
+            "building": 451
           }
         },
         {
@@ -915,14 +915,14 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/style-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/style.css",
           "name": "./src/style.css",
           "profile": {
-            "factory": 282,
-            "building": 36
+            "factory": 252,
+            "building": 31
           }
         }
       ],
       "profile": {
-        "factory": 131,
-        "building": 411
+        "factory": 48,
+        "building": 305
       },
       "failed": false,
       "errors": 0,
@@ -967,8 +967,8 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 46,
-            "building": 544
+            "factory": 36,
+            "building": 451
           }
         },
         {
@@ -976,14 +976,14 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/lodash/lodash.js",
           "name": "./node_modules/lodash/lodash.js",
           "profile": {
-            "factory": 282,
-            "building": 36
+            "factory": 252,
+            "building": 31
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 1
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -1028,8 +1028,8 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 46,
-            "building": 544
+            "factory": 36,
+            "building": 451
           }
         },
         {
@@ -1037,14 +1037,14 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/lodash/lodash.js",
           "name": "./node_modules/lodash/lodash.js",
           "profile": {
-            "factory": 282,
-            "building": 36
+            "factory": 252,
+            "building": 31
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 1
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -1072,7 +1072,7 @@
       "name": "./src/index.js",
       "index": 0,
       "index2": 4,
-      "size": 352,
+      "size": 353,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -1085,8 +1085,8 @@
       "issuerName": null,
       "issuerPath": null,
       "profile": {
-        "factory": 46,
-        "building": 544
+        "factory": 36,
+        "building": 451
       },
       "failed": false,
       "errors": 0,
@@ -1106,7 +1106,7 @@
       "providedExports": [],
       "optimizationBailout": [],
       "depth": 0,
-      "source": "import \"./style.css\";\n\nfunction getComponent() {\n  return import(\n  /* webpackChunkName:\"lodash\" */\n  \"lodash\").then(({\n    default: _\n  }) => {\n    var element = document.createElement(\"div\");\n    element.innerHTML = _join([\"alwyn\", \"zhou\"], \"-\");\n    return element;\n  });\n}\n\ngetComponent().then(element => {\n  document.body.appendChild(element);\n});"
+      "source": "import \"./style.css\";\n\nfunction getComponent() {\n  return import(\n  /* webpackChunkName:\"lodash\" */\n  \"lodash\").then(({\n    default: _\n  }) => {\n    var element = document.createElement(\"div\");\n    element.innerHTML = _.join([\"alwyn\", \"zhou\"], \"-\");\n    return element;\n  });\n}\n\ngetComponent().then(element => {\n  document.body.appendChild(element);\n});"
     },
     {
       "id": "./src/style.css",
@@ -1131,14 +1131,14 @@
           "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/babel-loader/lib/index.js??ref--4!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 46,
-            "building": 544
+            "factory": 36,
+            "building": 451
           }
         }
       ],
       "profile": {
-        "factory": 282,
-        "building": 36
+        "factory": 252,
+        "building": 31
       },
       "failed": false,
       "errors": 0,
@@ -1249,7 +1249,7 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 32,
+                "factory": 20,
                 "building": 16
               },
               "failed": false,
@@ -1294,14 +1294,14 @@
                   "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.html",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
                   "profile": {
-                    "factory": 32,
+                    "factory": 20,
                     "building": 16
                   }
                 }
               ],
               "profile": {
                 "factory": 3,
-                "building": 492
+                "building": 409
               },
               "failed": false,
               "errors": 0,
@@ -1346,7 +1346,7 @@
                   "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.html",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
                   "profile": {
-                    "factory": 32,
+                    "factory": 20,
                     "building": 16
                   }
                 },
@@ -1356,13 +1356,13 @@
                   "name": "./node_modules/lodash/lodash.js",
                   "profile": {
                     "factory": 3,
-                    "building": 492
+                    "building": 409
                   }
                 }
               ],
               "profile": {
-                "factory": 58,
-                "building": 2
+                "factory": 59,
+                "building": 165
               },
               "failed": false,
               "errors": 0,
@@ -1407,7 +1407,7 @@
                   "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.html",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
                   "profile": {
-                    "factory": 32,
+                    "factory": 20,
                     "building": 16
                   }
                 },
@@ -1417,13 +1417,13 @@
                   "name": "./node_modules/lodash/lodash.js",
                   "profile": {
                     "factory": 3,
-                    "building": 492
+                    "building": 409
                   }
                 }
               ],
               "profile": {
-                "factory": 58,
-                "building": 2
+                "factory": 59,
+                "building": 165
               },
               "failed": false,
               "errors": 0,
@@ -1479,7 +1479,7 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 32,
+            "factory": 20,
             "building": 16
           },
           "failed": false,
@@ -1524,14 +1524,14 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.html",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
               "profile": {
-                "factory": 32,
+                "factory": 20,
                 "building": 16
               }
             }
           ],
           "profile": {
             "factory": 3,
-            "building": 492
+            "building": 409
           },
           "failed": false,
           "errors": 0,
@@ -1576,7 +1576,7 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.html",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
               "profile": {
-                "factory": 32,
+                "factory": 20,
                 "building": 16
               }
             },
@@ -1586,13 +1586,13 @@
               "name": "./node_modules/lodash/lodash.js",
               "profile": {
                 "factory": 3,
-                "building": 492
+                "building": 409
               }
             }
           ],
           "profile": {
-            "factory": 58,
-            "building": 2
+            "factory": 59,
+            "building": 165
           },
           "failed": false,
           "errors": 0,
@@ -1637,7 +1637,7 @@
               "identifier": "/Users/zhouweilin/Desktop/learn_wp/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouweilin/Desktop/learn_wp/webpack-demo/src/index.html",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
               "profile": {
-                "factory": 32,
+                "factory": 20,
                 "building": 16
               }
             },
@@ -1647,13 +1647,13 @@
               "name": "./node_modules/lodash/lodash.js",
               "profile": {
                 "factory": 3,
-                "building": 492
+                "building": 409
               }
             }
           ],
           "profile": {
-            "factory": 58,
-            "building": 2
+            "factory": 59,
+            "building": 165
           },
           "failed": false,
           "errors": 0,

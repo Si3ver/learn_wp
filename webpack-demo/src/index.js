@@ -3,7 +3,7 @@ import "./style.css"
 function getComponent() {
   return import(/* webpackChunkName:"lodash" */"lodash").then(({ default: _ }) => {
     var element = document.createElement("div");
-    element.innerHTML = _join(["alwyn", "zhou"], "-");
+    element.innerHTML = _.join(["alwyn", "zhou"], "-");
     return element;
   });
 }
