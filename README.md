@@ -141,3 +141,36 @@ Prefetching：`import (/* webpackPreload:true */ xxx).then()` 和主线程一起
 
 - [mini-css-extract-plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/) css 代码打包（避免 css in js)
 - [optimize-css-assets-webpack-plugin](https://github.com/NMFR/optimize-css-assets-webpack-plugin) css 代码压缩
+
+6. Caching
+
+content hash 优化 Caching
+
+7. shimming 垫片
+
+修改 webpack 的一些默认行为 or 实现一些webpack原始打包实现不了的效果。
+
+**加载一些模块并暴露给全局调用**
+
+```js
+// webpack.config.js
+new webpack.providePlugin({
+  $: 'jquery',
+  _: 'lodash',
+  _join: ['lodash', 'join']
+})
+```
+
+**改变this的指向**
+
+[imports-loader](https://webpack.js.org/loaders/imports-loader/)
+
+```js
+// webpack.config.js
+// 使模块内this指向全局window
+module: {
+  rules: [{
+    loader: 'imports-loader?this=>window'
+  }]
+}
+```

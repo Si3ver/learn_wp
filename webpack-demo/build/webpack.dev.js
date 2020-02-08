@@ -1,3 +1,4 @@
+const path = require("path");
 const webpack = require("webpack");
 const merge = require("webpack-merge");
 const commonConfig = require("./webpack.common");
@@ -5,6 +6,11 @@ const commonConfig = require("./webpack.common");
 const devConfig = {
   mode: "development",
   devtool: "cheap-module-eval-source-map",
+  output: {
+    filename: "bundle.js",
+    chunkFilename: '[name].chunk.js',
+    path: path.resolve(__dirname, "../dist")
+  },
   module: {
     rules: [
       {
